@@ -40,7 +40,7 @@ Response
 
 Body 
 
-{
+```{
     "content": [
         {
             "id": 1,
@@ -259,7 +259,7 @@ Body
     "numberOfElements": 3,
     "first": true,
     "empty": false
-} 
+} ```
 
 The Get recipe API supports search string and pagination 
 
@@ -269,7 +269,7 @@ Response
 `HTTP Status 200 OK`
 Body
 
-{
+```{
     "id": 1,
     "title": "30 Minute Chili",
     "yeild": 6,
@@ -324,7 +324,7 @@ Body
             "steps": "Brown the meat in a little butter and cook until the meat is brown -- about 10 minutes. Add all other ingredients and let simmer for 30 minutes. Your choice of hot sauce may be added to taste. Recipe by: MasterCook Archives Posted to recipelu-digest Volume 01 Number 577 by Rodeo46898 &lt;Rodeo46898@aol.com&gt; on Jan 22, 1998"
         }
     ]
-}
+}```
 
 ** `GET /recipes?recipes?category=Cakes` ** 
 
@@ -332,7 +332,7 @@ Response
 `HTTP 200 OK`
 Body 
 
-[
+```[
     {
         "id": 2,
         "title": "Amaretto Cake",
@@ -417,7 +417,7 @@ Body
             }
         ]
     }
-]
+]```
 
 **`GET /categories` **
 The API retrieves a List of all the recipe category available in the Database 
@@ -426,7 +426,7 @@ Response
 
 `HTTPS 200 Ok`
 
-Body 
+```Body 
 [
     {
         "name": "Side dish"
@@ -449,7 +449,7 @@ Body
     {
         "name": "Vegetables"
     }
-]
+]```
 
 ** Save Recipe to Database 
 

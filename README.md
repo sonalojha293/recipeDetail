@@ -259,11 +259,11 @@ Body
     "numberOfElements": 3,
     "first": true,
     "empty": false
-} ```
-
+} 
+```
 The Get recipe API supports search string and pagination 
 
-** `GET /recipes?title=30 Minute Chili` **
+** ```GET /recipes?title=30 Minute Chili` **
 
 Response
 `HTTP Status 200 OK`
@@ -324,10 +324,10 @@ Body
             "steps": "Brown the meat in a little butter and cook until the meat is brown -- about 10 minutes. Add all other ingredients and let simmer for 30 minutes. Your choice of hot sauce may be added to taste. Recipe by: MasterCook Archives Posted to recipelu-digest Volume 01 Number 577 by Rodeo46898 &lt;Rodeo46898@aol.com&gt; on Jan 22, 1998"
         }
     ]
-}```
-
+}
+```
 ** `GET /recipes?recipes?category=Cakes` ** 
-
+```
 Response 
 `HTTP 200 OK`
 Body 
